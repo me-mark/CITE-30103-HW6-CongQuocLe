@@ -1,0 +1,19 @@
+1. Preprocessing
+- Handles #include, #define, removes comments.
+- Possible error: Missing header file.
+
+2. Compilation
+- Converts preprocessed C code to assembly; checks syntax.
+- Possible error: Syntax/type error.
+
+3. Assembly
+- Converts assembly to machine code object file.
+- Possible error: Invalid assembly instruction.
+
+4. Linking
+- Combines object files/libraries into executable.
+- Possible error: Undefined reference.
+
+5. Loading
+- OS loads program into memory and runs it.
+- Possible error: Missing shared library or runtime crash.
