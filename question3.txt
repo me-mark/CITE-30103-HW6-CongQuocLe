@@ -1,0 +1,11 @@
+If #include <stdio.h> is removed from a program that calls printf():
+
+Stage that fails: Linking stage.
+
+Reason:
+- The compiler will allow the call to printf but will assume an implicit declaration.
+- At the linking stage, the linker cannot find the actual definition of printf because the
+standard library header was not included.
+
+Expected error message:
+"undefined reference to `printf`"
