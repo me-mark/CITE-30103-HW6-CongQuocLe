@@ -1,0 +1,6 @@
+Global variables are declared outside any function and can be used by all functions.
+Local variables are declared inside a function and can only be used within that function.
+
+In the program example:
+The global variable 'globalValue' has program-wide scope.
+The local variable 'localValue' exists only inside the main function.
