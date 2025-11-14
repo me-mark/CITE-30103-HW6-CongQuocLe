@@ -1,0 +1,3 @@
+scanf requires the address of n, so it must be:
+scanf("%d", &n);
+Runtime error / input error (invalid memory access)
