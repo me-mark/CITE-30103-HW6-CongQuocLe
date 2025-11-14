@@ -1,0 +1,17 @@
+The first identifier is
+int 1value = 10;
+This is incorrect because an identifier in the C language cannot begin with a digit. Identifiers must begin with a letter or an underscore.
+Corrected version:
+int value1 = 10;
+
+The second identifier is
+float avg-rate = 12.5;
+This is incorrect because an identifier cannot contain a hyphen. A hyphen is interpreted as the subtraction operator. Identifiers may contain only letters, digits, and underscores.
+Corrected version:
+float avg_rate = 12.5;
+
+The third identifier is
+char Class = 'A';
+This identifier is syntactically valid in C, but it violates common naming conventions. Identifiers should not use names that resemble language keywords or type names. The word Class is too similar to the keyword class in C plus plus and should be avoided for clarity and portability.
+Corrected version:
+char grade = 'A';
