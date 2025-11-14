@@ -1,0 +1,7 @@
+The left-shift operator (<<) has LOWER precedence than addition (+). So that:
+(5 + 3) << 1
+8 << 1 = 16 not 11
+
+Corrected expression:
+By parrenthesis: res = a + (b << 1);
+By arithmetic: res = a + b*2;
